@@ -107,6 +107,9 @@ function App() {
           placeholder="What do you think the punchline is?"
           value={guess}
           onChange={(e) => setGuess(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") handleReveal();
+          }}
         />
       )}
 

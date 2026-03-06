@@ -6,6 +6,7 @@
   max-width: 600px;
   min-height: 100vh;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .app h1 {
@@ -227,6 +228,7 @@
   cursor: pointer;
   outline: none;
   transition: border-color 0.2s;
+  text-align: center;
 }
 
 .category-select:focus {
@@ -300,4 +302,63 @@
   width: 100%;
   max-width: 500px;
   text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .app h1 {
+    font-size: 1.8rem;
+  }
+
+  .app .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .category-select {
+    width: 100%;
+  }
+
+  .joke-card {
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+
+  .joke-card p {
+    font-size: 1.05rem;
+  }
+
+  .joke-card .punchline {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .reveal-btn,
+  .get-joke-btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .guess-input {
+    font-size: 1rem;
+  }
+
+  .history-item {
+    padding: 0.75rem 1rem;
+  }
 }
