@@ -19,9 +19,10 @@
 }
 
 .app .subtitle {
-  color: #888;
+  color: #fff;
+  font-weight: 700;
   margin-bottom: 2rem;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .buttons {
@@ -33,8 +34,8 @@
   border-radius: 12px;
   border: none;
   padding: 0.8em 2em;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.25em;
+  font-weight: 700;
   color: #fff;
   background: linear-gradient(135deg, #ff6b6b, #ee5a24);
   cursor: pointer;
@@ -62,10 +63,12 @@
 }
 
 .joke-card p {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   line-height: 1.6;
   margin: 0;
   text-align: center;
+  color: #fff;
+  font-weight: 700;
 }
 
 .joke-card .loading {
@@ -74,13 +77,15 @@
 }
 
 .joke-card .setup {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #fff;
   margin: 0 0 0.75rem 0;
 }
 
 .joke-card .punchline {
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   margin: 0;
   color: #646cff;
 }
@@ -89,8 +94,8 @@
   border-radius: 12px;
   border: none;
   padding: 0.8em 2em;
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.25em;
+  font-weight: 700;
   color: #fff;
   background: linear-gradient(135deg, #646cff, #535bf2);
   cursor: pointer;
@@ -113,9 +118,10 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
   cursor: pointer;
-  color: #ccc;
+  color: #fff;
   background: #1a1a2e;
   border: 1px solid #333;
   border-radius: 8px;
@@ -180,7 +186,8 @@
 }
 
 .guess-input::placeholder {
-  color: #666;
+  color: #aaa;
+  font-weight: 700;
 }
 
 .joke-card .guess {
@@ -219,12 +226,13 @@
 
 .category-select {
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.15rem;
+  font-weight: 700;
   font-family: inherit;
   border-radius: 8px;
   border: 1px solid #333;
   background: #1a1a2e;
-  color: inherit;
+  color: #fff;
   cursor: pointer;
   outline: none;
   transition: border-color 0.2s;
@@ -335,11 +343,11 @@
   }
 
   .joke-card p {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
   }
 
   .joke-card .punchline {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .buttons {
